@@ -1,0 +1,316 @@
+@font-face {
+	font-family: 'yeseva'; 
+	src: url(./fonts/YesevaOne-Regular.ttf); 
+}
+
+@font-face {
+	font-family: 'nunito'; 
+	src: url(./fonts/NunitoSans-Regular.ttf); 
+}
+
+.header {
+    background: #131313;
+    color: white;
+    align-items: center;
+    padding-bottom: 257px;
+    background-size: 100%;
+}
+
+.headerBlock {
+    display: flex;
+    padding-left: 134px;
+}
+
+.block1 {
+    margin-right: 60px;
+}
+
+.title {
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-bottom: 35px;
+    font-family: 'yeseva';
+    font-weight: 400;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin-bottom: 42px;
+    font-family: 'nunito';
+}
+
+.studio {
+    width: 679px;
+    height: 480px;
+}
+
+.nav {
+    display: flex;
+    gap: 60px;
+    justify-content: flex-end;
+    margin-bottom: 52px;
+    margin-right: 176px;
+    padding-top: 107px;
+    font-family: 'yeseva';
+    font-weight: 300;
+}
+
+.pass {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+}
+
+.box1 p {
+    font-family: 'nunito';
+}
+
+.active {
+    text-transform: uppercase;
+    color: #E3B873;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.slacks {
+    display: flex;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+
+.variants h1 {
+    text-transform: uppercase;
+    color: #E3B873;
+    font-size: 18px;
+    margin-bottom: 9px;
+    font-family: 'yeseva';
+    font-weight: 400;
+}
+
+.box1 {
+    display: flex;
+}
+
+.box1 div {
+    margin-right: 56px; 
+}
+
+.box2 {
+    display: flex;
+}
+
+.box2 div {
+    margin-right: 30px; 
+}
+
+.onlineControl {
+    font-size: 20px;
+    font-family: 'yeseva';
+    font-weight: 400;
+}
+
+.camImg {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.videoButton img {
+    position: absolute;
+    top: 39%;
+    left: 41%;
+    margin: 0;
+}
+
+.camTitle {
+    margin-top: 92px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.video {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 50%px;
+    left: 293px;
+}
+
+.videoImg {
+    width: 817px;
+    height: 434px;
+    margin-top: 31px;
+}
+
+.line {
+    width: 55px;
+    height: 1px;
+    background-color: #E3B873;
+    margin-top: 62px;
+    margin-bottom: 34px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.infoMain {
+    width: 680px;
+    font-size: 18px;
+    margin-bottom: 93px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'nunito';
+}
+
+.main {
+    padding-top: 250px;
+}
+
+.loginInput p {
+    margin-bottom: 1px;
+    font-size: 13px;
+    color: rgba(54, 54, 54, 0.5);
+}
+
+.loginInput input {
+    font-size: 14px;
+    color: #363636;
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    width: 231px;
+    padding-bottom: 7px;
+    padding-top: 3px;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.loginBtn {
+    background: #E3B873;
+    box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 2px;
+    padding: 20px 75px;
+    color: white;
+    font-size: 13px;
+    border: none;
+}
+
+.loginBox {
+    display: flex;
+    justify-content: center;
+    gap: 58px;
+    margin-bottom: 25px;
+    font-family: 'nunito';
+}
+
+.checkBox {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-family: 'nunito';
+}
+
+.mainTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hammerImg {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.typeBox {
+    width: 392px;
+    height: 421px;
+    background-image: url(./assets/typesBg.jpg);
+}
+
+.typeBox2 {
+    width: 392px;
+    height: 421px;
+    background-image: url(./assets/typeBg2.jpg);
+}
+
+.typeBox3 {
+    width: 392px;
+    height: 421px;
+    background-image: url(./assets/typeBg3.jpg);
+}
+
+.typeInfo {
+    width: 330px;
+    height: 286px;
+    background-color: white;
+    position: relative;
+    top: 294px;
+    left: 34px;
+    z-index: 1;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+};
+
+.type {
+    margin-bottom: 10px;
+}
+
+.typeInfo ul {
+    padding-left: 15px;
+    color: #959595;
+}
+
+.typeText {
+    padding: 25px 31px 36px;
+}
+
+.typeText li {
+    margin-bottom: 10px;  
+    font-size: 11px; 
+    font-family: 'nunito'; 
+}
+
+.typeTitle {
+    font-size: 18px;
+    color: #363636;
+    margin-top: 0px;
+    font-family: 'yeseva';
+    font-weight: 400;
+}
+
+.priceBtn {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 17px 21px;
+    position: absolute;
+    top: 260px;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    border: none;
+    cursor: pointer;
+    font-family: 'yeseva';
+    font-weight: 400;
+}
+
+.types {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 230px;
+}
+
+.typesRepair {
+    font-family: 'yeseva';
+    font-weight: 400;
+}

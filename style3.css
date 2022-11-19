@@ -1,0 +1,444 @@
+@font-face {
+	font-family: 'yeseva'; 
+	src: url(./fonts/YesevaOne-Regular.ttf); 
+}
+
+@font-face {
+	font-family: 'nunito'; 
+	src: url(./fonts/NunitoSans-Regular.ttf); 
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+    font-family: 'nunito';
+}
+
+.numBox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.numbersBlock {
+    background-image: url(./assets/numBg.png);
+    background-repeat: no-repeat;
+    background-size: 590px 590px;
+    width: 590px;
+    height: 590px;
+}
+
+.numbers {
+    top: 92px;
+    left: 182px;
+    position: relative;
+}
+
+.loginBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightHeadBlock {
+    background-color: black;
+    padding-left: 49px;
+    padding-top: 28px;
+    width: 509px;
+    height: 506px;
+}
+
+.rightHeadBlock button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    padding: 19px 21px;
+    color: white;
+    font-size: 13px;
+    border: none;
+}
+
+.logBtn {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 49px;
+}
+
+.logInput {
+    width: 400px;
+    border: none;
+    border-bottom: rgba(255, 255, 255, 0.15) 1px solid;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    background-color: transparent;
+    margin-bottom: 48px;
+    color: white;
+}
+
+.rightHeadBlock label {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.rightHeadBlock input::-webkit-input-placeholder { color: white; }
+
+.emailInput {
+    width: 400px;
+    border: none;
+    border-bottom: rgba(255, 255, 255, 0.15) 1px solid;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.checkBox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.checkInp {
+    width: 18px;
+    margin-bottom: 23px;
+}
+
+.checkBox p {
+    font-size: 14px;
+    color: white;
+    margin-top: 10px;
+}
+
+.loginTitle {
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.pigTitle {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 300px;
+    align-items: center;
+    font-family: 'nunito';
+}
+
+.pigTitle p {
+    margin-left: 25px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+
+.main {
+    background: url(./assets/mainBg.jpg);
+    background-size: cover;
+}
+
+.mainBox {
+    width: 100%;
+    height: 800px;
+    margin-top: 230px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainPics {
+    display: flex;
+    gap: 43px;
+    padding-right: 100px;
+}
+
+.mainPics img {
+    margin-bottom: 37px;
+}
+
+.picsBox2 {
+    position: relative;
+    top: -175px;
+}
+
+.picsBox1 {
+    position: relative;
+    top: -75px;
+}
+
+.mainNav {
+    padding-top: 110px;
+    margin-left: 100px;
+    margin-right: 77px;
+}
+
+.navTitle {
+    font-size: 27px;
+    color: #E3B873;
+    margin-bottom: 47px;
+    font-weight: 400;
+    font-family: 'yeseva';
+}
+
+.nav span {
+    font-size: 20px;
+    color: #E3B873;
+    text-decoration: underline;
+}
+
+.nav p {
+    margin-top: 25px;
+    color: white;
+    font-family: 'nunito';
+}
+
+.clients {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: -85px;
+}
+
+.clientsTitle {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.clientsTitle h1 {
+    font-family: 'yeseva';
+    font-weight: 400;
+}
+
+.clientsTitle p {
+    font-family: 'nunito';
+}
+
+.clientsTitle img {
+    width: 12%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.client {
+    width: 376px;
+    height: 428px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    padding-left: 20px;
+}
+
+.clientName {
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    gap: 25px;
+}
+
+.clientName p {
+    font-size: 18px;
+    color: #181818;
+    font-family: 'yeseva';
+    font-weight: 400;
+}
+
+.clientName img {
+    border-radius: 50%;
+}
+
+.clientText {
+    width: 320px;
+    margin-bottom: 11px;
+    font-size: 14px;
+    color: #959595;
+    line-height: 180%;
+    font-family: 'nunito';
+}
+
+.clientInfoBox {
+    display: flex;
+    background: #E3B873;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+    color: white;
+    width: 290px;
+    justify-content: center;
+    gap: 18px;
+    position: relative;
+    top: 13px;
+    left: -20px;
+    font-family: 'yeseva';
+    font-weight: 400;
+}
+
+.loginBox label {
+    color: #FFFFFF;
+}
+
+.loginBox {
+    font-family: 'nunito';
+}
+
+.line {
+    height: 54px;
+    width: 1px;
+    background-color: white;
+}
+
+.mapBlock {
+    background-image: url("./assets/mapBg.png");
+    width: 100%;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    background-size: cover;
+}
+
+.mapSubtitle {
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-bottom: 26px;
+    width: 580px;
+    font-size: 20px;
+    margin-top: 270px;
+    font-family: 'yeseva';
+    font-weight: 400;
+}
+
+.mapSubtitle img {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.mapBlockLogin {
+    width: 880px;
+    height: 450px;
+    background-color: #131313;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: -230px;
+}
+
+.footer {
+    display: flex;
+    padding: 37px 92px;
+    background: #131313;
+    font-size: 11px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'nunito';
+}
+
+.title {
+    color: #E3B873;
+    text-transform: uppercase;
+}
+
+.footerPagesBlock {
+    display: flex;
+    gap: 47px;
+    color: white;
+}
+
+.footerPage {
+    color: #E3B873;
+}
+
+.telNumber {
+    color: #E3B873;
+    text-decoration-line: underline;
+    margin-right: 45px;
+}
+
+.btn {
+    padding: 13px 33px;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    color: white;
+    border: none;
+}
+
+.footerBtns {
+    display: flex;
+    align-items: center;
+}
+
+.nameNumber {
+    display: flex;
+    gap: 48px;
+}
+
+.nameInput, .numInput {
+    width: 231px;
+    border: none;
+    border-bottom: rgba(255, 255, 255, 0.15) 1px solid;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    background-color: transparent;
+    margin-bottom: 48px;
+    color: white;
+}
+
+.mailInput {
+    width: 516px;
+    border: none;
+    border-bottom: rgba(255, 255, 255, 0.15) 1px solid;
+    padding-bottom: 5px;
+    padding-top: 7px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.questionLogin {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.quesBtn button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    padding: 19px 21px;
+    color: white;
+    font-size: 13px;
+    border: none;
+}
+
+.quesBtn {
+    display: flex;
+    justify-content: center;
+    font-family: 'nunito';
+}
+
+.agreeInput {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 12px;
+    font-family: 'nunito';
+}
+
+.quesTitle {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 34px;
+    font-family: 'yeseva';
+    font-weight: 400;
+}
